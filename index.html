@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./src/css/toggle.css">
+      <link rel="stylesheet" href="./src/css/style.css">
+      <link rel="stylesheet" href="./src/css/dropdown.min.css">
+      <link rel="stylesheet" href="./src/css/transition.min.css">
+      <script src="./src/js/jquery.js"></script>
+      <script src="./src/js/dropdown.min.js"></script>
+      <script src="./src/js/transition.min.js"></script>
+      <script src="./src/js/display.js"></script>
+      <script src="./src/js/main.js"></script>
+</head>
+
+<body>
+      <div style="float:left; padding-right: 20px;">
+            <button onclick="window.open('https://github.com/perimeterx/event-handlers#contribution', '_blank').focus();" class="btn btn-6 btn-6b"
+                  id="no-combination-button" style="color: red; display: none; max-width: 250px;"> </button><br>
+            <button onclick="window.open('https://github.com/perimeterx/event-handlers/', '_blank').focus();"
+                  class="btn btn-6 btn-6b"> event-handlers </button>
+            <br><br><br>
+            <button id="mode-button" class="btn btn-6 btn-6b"> </button><br>
+            <button id="display-button" class="btn btn-6 btn-6b" style="display: none"> </button>
+      </div>
+      <div id="container-1" style="float: left;">
+            <select class="ui search selection dropdown" id="browser-select-1"></select>
+            <select class="ui search selection dropdown" id="browser-version-select-1"></select>
+            <br>
+            <select class="ui search selection dropdown" id="os-select-1"></select>
+            <select class="ui search selection dropdown" id="os-version-select-1"></select>
+            <br><br>
+            <select class="ui search selection dropdown" selected="window" id="api-1"></select>
+            <br><br>
+            <div id="eh-container-1" style="width: 100%;"></div>
+      </div>
+      <div id="container-2" style=" float:right; display: none;">
+            <select class="ui search selection dropdown" id="browser-select-2"></select>
+            <select class="ui search selection dropdown" id="browser-version-select-2"></select>
+            <br>
+            <select class="ui search selection dropdown" id="os-select-2"></select>
+            <select class="ui search selection dropdown" id="os-version-select-2"></select>
+            <br><br>
+            <select class="ui search selection dropdown" selected="window" id="api-2"></select>
+            <br><br>
+            <div id="eh-container-2" style="width: 100%;"></div>
+      </div>
+</body>
+
+</html>
