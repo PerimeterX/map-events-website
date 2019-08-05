@@ -1,3 +1,3 @@
-# event-handlers-website
+# map-events-website
 
-a [website](https://perimeterx.github.io/event-handlers-website/) for [event handlers project](https://github.com/perimeterx/event-handlers)
+a [website](https://perimeterx.github.io/map-events-website/) for [event handlers project](https://github.com/perimeterx/map-events)
